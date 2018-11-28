@@ -1,0 +1,102 @@
+@width:100%;
+@height:650px;
+@fonts:4vw;
+@fontas:1vw;
+@fontlorem:6vw;
+@fontlorart:3vw;
+@ban1width:33%;
+@banheight:auto;
+@banmarg:10%;
+@banpadding:10%;
+@pictowidth:80%;
+@loremwidth:25%;
+
+.background{
+  width: @width;
+  height: @height;
+  background-image: url(header.jpd);
+  background-size: cover;
+  position: relative;
+}
+.background_hello
+{
+  position:absolute;
+  width: 33%;
+  top: 30%;
+  height: 10%;
+}
+.banner1
+{
+  display: flex;
+  flex-direction: row;
+}
+.banner1_naviguer
+{ 
+  width: @ban1width;
+  height: @banheight;
+  margin-left: @banmarg;
+  padding-top: @banpadding;
+  padding-bottom: @banpadding;
+  display: flex;
+  flex-direction: column;
+  background-color: lightskyblue;
+}
+.banner1_naviguer-picto
+{
+  width: @pictowidth;
+  justify-content: center;
+}
+strong{
+  font-size: @fonts;
+  color:white;
+  text-align: center;
+}
+aside{
+  font-size: @fontas;
+  color: white;
+}
+.lorem
+{
+  width: @width;
+  height: @banheight;
+  display: flex;
+  flex-direction: row;
+  }
+.lorem_lorem
+{
+  width: @loremwidth;
+  height: @banheight;
+  display: flex;
+  flex-direction: column;
+  h1 {
+    font-size: @fontlorem;
+    color:white;
+    article{
+      font-size: @fontlorart;
+      color: white;
+    }
+  }
+}
+.mountains
+{
+  width: @width;
+  height: @height;
+}
+.mountains_img
+{
+  position: relative;
+  width: @width;
+  height: @height;
+}
+
+.back{
+  position:absolute;
+  top: @height;
+  left:5%;
+}
+.next
+{
+  position: absolute;
+  top:@height;
+  right: 5%;
+}
