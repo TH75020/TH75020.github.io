@@ -1,0 +1,548 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+body
+{
+    width: 940px;
+    height: auto;
+    background-image: url(images/background_purple.png) no repeat;
+}
+.animation
+{
+    width: 100%;
+    height: auto;
+}
+.logobat
+{
+    float: left;
+    overflow: hidden;
+    -moz-transition-duration:0.6s;
+    -moz-transition-timing-function:ease;
+    -webkit-transition-duration:0.6s;
+    -webkit-transition-timing-function:ease;
+    transition-duration:0.6s;
+    transition-timing-function:ease;
+    margin: 0px;
+    width: 5%;
+    height: auto;
+}
+.logobat:hover
+{
+    -webkit-animation: logobat .6s; 
+    animation: logobat .6s; 
+    -moz-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    transform:rotate(360deg);
+}
+.texte
+{
+    font-family: 'Arial Narrow';;
+    float: left;
+    margin-left: 11%;
+    margin-top: 3%;
+}
+.aura
+{
+    float: right;
+    font-size: 2%;
+    color: grey;
+    text-align: right;
+    text-decoration: none;
+    text-indent: 2%;
+    margin-top: 3%;
+    overflow:hidden;
+    font-family: 'Arial Narrow';
+}
+.aura:hover
+{
+    border-radius: 17px;
+    padding: 2%;
+    background: url(images/background_purple.png);
+    color: white;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+        0 0 0.2em #87F;
+    opacity: 15%;
+    transition:.3s;
+}
+section
+{
+    width: 100%;
+    /*height: auto;*/
+    border-radius: .5%;
+    background:url(images/background_snow.jpg);
+    /*overflow: hidden;*/
+}
+.compte
+{
+    float: left;
+    width: 100%;
+    height:auto;
+    padding-top: 3%;
+    background:url(images/background_snow.jpg) no repeat;
+}
+.compteur
+{
+    width:100%;
+    height: auto;
+}
+.titre
+{
+    width: 62%;
+    height: auto;
+    margin-left: 2%;
+    float: left;
+    font-family: 'Arial Narrow';
+    color: black;
+    font-size: 2%;
+}   
+
+.chiffre
+{
+    overflow: hidden;
+    font-size: 3.2%;
+    border-radius: 5px;
+    width: 3.7%;
+    height: 3.7%;
+    padding: 0.5%;
+    background-color:black;
+    color: white;
+    text-align: center;
+    text-indent: .2%;
+    float: right;
+    margin-top: 3.2%;
+    margin-right: 1.06%;
+}
+.commentaire
+{
+    font-family: 'Arial Narrow';
+    font-size: 2%;   
+    color: darkslategray;
+    float: right;
+    margin-right: 4.25%;
+}
+.bandeaudroit
+{
+    float: right;
+    width: 33%;
+    height: auto;
+    flex-direction:column;
+}
+.bandeau
+{
+    width: 100%;
+    height:auto;
+    background-image: url(images/background_purple.png);
+}
+#slideshow {
+	position: absolute;    /*le parent positionné*/
+	width: 96%;          /*limite en largeur (1 élément du slideshow)*/
+	height: auto;         /*limite en hauteur*/
+	margin: 1.06%;
+	overflow: hidden;      /*on cache ce qui déborde*/
+}
+#sContent {
+	position: absolute;   /*on sort l'élément du flux*/
+	width: 96%;         /*ou 300% car 3 éléments*/
+	margin: 0;            
+	padding: 1.06%;
+    z-index: 1.06%;
+    margin-left: 4.4%;
+	
+	/*CSS3 transition*/
+    -webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+span
+{
+    width: 5em;
+}
+.none span
+{
+    display:none;
+}
+.inline-block span
+{
+    display: inline-block;
+}
+
+#slideshow .prev {
+	position: absolute;
+    top: 19.44%;
+    left: 0%;
+    z-index: 0.55%;
+    color: black;
+}
+#slideshow .next{
+    position: absolute;
+    top: 19.44%;
+    left:100%;
+    z-index: 0.55%;
+    color: black;
+}
+
+/*#slideshow .prev { left: 0; }
+#slideshow .next { right: 0; }
+
+/* initialisation *
+#slideshow .next, #slideshow .prev { display: none; }
+#slideshow .next1 { display: block; }
+
+/* Vers 1ère étape 
+#s1:target #sContent { left: 0px; }
+#s1:target .next, #s1:target .prev { display: none; }
+#s1:target .next1 { display: block; }
+
+/* Vers 2ème étape 
+#s2:target #sContent { left: -150px; } /*ou -100%
+#s2:target .next, #s2:target .prev { display: none; }
+#s2:target .next2, #s2:target .prev2 { display: block; }
+
+/* Vers 3ème étape 
+#s3:target #sContent { left: -300px; } /*ou -200%
+#s3:target .next, #s3:target .prev { display: none; }
+#s3:target .prev3 { display: block; }*/
+
+figcaption
+{
+    font-family: 'Arial Narrow';
+    font-size: 1.06%;
+    color: grey;
+    padding-top: 11.7%;
+}
+.carrecouleur
+{
+    margin-top: 2.12%;
+    width: 17%;
+    height:16%;
+    background-color: darkviolet;
+    padding-top: 1.06%;
+}
+.backgroundbig
+{
+    width: 14.9%;
+    height: 10.63%;
+    background-image: url(images/transat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin-left: 1.06%;
+    padding-top: 2.13%x;
+}
+
+.parasol
+{   
+    width: 5.3%;
+    height: auto;
+    margin-left: 3.2%;
+    margin-top: 4.25%;
+}
+.parasol:hover
+{
+    -webkit-animation: parasol .4s; /* Safari, Opera, Chrome */
+    animation: parasol .4s; /* Tous les autres navigateurs */
+    opacity: 0.4;
+    
+}
+.bouteille
+{
+    width: 5.32%;
+    height: auto;
+    margin-left: 3.2%;
+    margin-top: 4.25%;
+}
+.bouteille:hover
+{
+    -webkit-animation: bouteille .2s; /* Safari, Opera, Chrome */
+    animation: bouteille .2s; /* Tous les autres navigateurs */
+    -moz-transform:rotate(-15deg);
+    -webkit-transform:rotate(-15deg);
+    transform:rotate(-15deg);
+}
+.coton
+{
+    width: 5.3%;
+    height: auto; 
+    margin-left: 3.2%;
+    margin-top: 5.3%;
+}
+.coton:hover
+{
+    -webkit-animation: coton .2s; 
+    animation: coton .2s;
+    margin-left: 4.8%;
+}
+.megot
+{
+    width: 5.3%;
+    height: auto;
+    margin-left: 3.2%;
+    margin-top: 3.2%;
+}
+.megot:hover
+{
+    -webkit-animation: megot .2s; 
+    animation: megot .2s;
+    -moz-transform:scale(1.2); 
+    -ms-transform:scale(1.2); 
+    -o-transform:scale(1.2);
+    transform: scale(1.2);
+    margin-left:3.6%;
+}
+.plastique
+{
+    float: left;
+    width: 5.3%;
+    height: auto;
+    margin-left: 3.2%;
+    margin-top: 4.25%;
+}
+.plastique:hover
+{
+    -webkit-animation: plastique .2s; 
+    animation: plastique .2s;
+    -moz-transform:scale(1.25); 
+    -ms-transform:scale(1.25); 
+    -o-transform:scale(1.25); 
+    transform:scale(1.25);
+}
+li
+{
+    display: inline-block;
+}
+@media screen and (max-width: 600px) {
+.articles, .bandeaudroit, {
+      width: 100%;
+      margin-top: 0;
+}}
+.articles
+{
+    width: 100%;
+    height: 100%;
+    float: none;
+}
+.news
+{
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+    height:auto;
+}
+h2
+{
+    font:'Arial';
+    font-size: 2.1%;
+}
+.size33
+{
+    width: 33%;
+}
+.size100
+{
+    width: 100%;
+}
+.cell
+{
+    /*float: left;*/
+    padding: 0.5em;
+    box-sizing: border-box;
+    margin: 0;
+}
+.conteneur
+{   
+    order: 2;
+    font-family: 'Arial Narrow';
+    font-size: 2%;
+    width: 100%;
+}
+
+.row
+{
+    order: 1;
+}
+.row em
+{
+    color: blue;
+}
+.row .cell
+{
+    order: 4;
+}
+
+/*.colonnes .p
+{
+    font-family: 'Arial Narrow';
+    font-size: 12px;
+    width: 66%;
+    padding: .55%;
+    height: auto;
+}*/
+.flexbox
+{
+    display: flex;
+}
+
+/*.colonne
+{
+    width: 32%;
+    border-right-color: lightslategray;
+    border-right-style: dotted;
+    margin-right: 0.2%;
+ }*/
+ .tableaux
+{
+    order: 1;
+}
+.plastiques
+{
+    width: 25.53%;
+    height:3.2%;
+    text-align: right;
+}
+.megots
+{
+    width: 25.53%;
+    height:3.2%;
+    text-align: right;
+}
+.megots:hover
+{
+border-radius:0px 10px 10px 0px;
+background-color:violet;
+color :white;
+-webkit-animation: megots .3s; 
+    animation: megots .3s;
+    -moz-transform:scale(1.15); 
+    -ms-transform:scale(1.15); 
+    -o-transform:scale(1.15); 
+    transform:scale(1.15);
+opacity: 0.5;
+}
+.txt_tab
+{
+    font-size:10px;
+    color: darkgrey;
+}
+.cotontiges
+{
+    font: bold;
+    width: 25.53%;
+    height:3.2%;
+    text-align: right;
+}
+.cotontiges:hover
+{
+border-radius:0px 10px 10px 0px;
+background-color:violet;
+-webkit-animation: cotontiges .3s; 
+    animation: cotontiges .3s;
+    -moz-transform:scale(1.15); 
+    -ms-transform:scale(1.15); 
+    -o-transform:scale(1.15); 
+    transform:scale(1.15);
+opacity: 0.5;
+}
+.bouteilles
+{
+    font :bold;
+    width: 25.53%;
+    height:3.2%;
+    text-align: right;
+}
+.bouteilles:hover
+{
+border-radius:0px 10px 10px 0px;
+background-color:violet;
+-webkit-animation: bouteilles .3s; 
+    animation: bouteilles .3s;
+    -moz-transform:scale(1.15); 
+    -ms-transform:scale(1.15); 
+    -o-transform:scale(1.15); 
+    transform:scale(1.15);
+opacity: 0.5;
+}
+.parasols
+{
+    font: bold;
+    width: 25.53%;
+    height:3.2%;
+    text-align: right;
+}
+.parasols:hover
+{
+border-radius:0px 10px 10px 0px;
+background-color:violet;
+-webkit-animation: parasols .3s; 
+    animation: parasols .3s;
+    -moz-transform:scale(1.15); 
+    -ms-transform:scale(1.15); 
+    -o-transform:scale(1.15); 
+    transform:scale(1.15);
+opacity: 0.5;
+}
+.plastiques:hover
+{
+border-radius:0px 10px 10px 0px;
+background-color:violet;
+-webkit-animation: plastiques .3s; 
+    animation: plastiques .3s;
+    -moz-transform:scale(1.15); 
+    -ms-transform:scale(1.15); 
+    -o-transform:scale(1.15); 
+    transform:scale(1.15);
+opacity: 0.5;
+}
+.tableaux img
+{
+    opacity: 0.4;
+}
+.element
+{   
+    border: 1px solid black;
+}
+.formulaire
+{
+    order: 2;
+    margin-top: 4.25%;
+    width:16%;
+    height:16%;
+    padding: 2.13%;
+    background-color:mediumslateblue;
+    border-radius: 0.5%;
+    margin-right: 2.13%;
+}
+
+form
+{
+    margin-left: 4.25%;
+}
+.formulaire .clic
+{
+    background-color: black;
+}
+.citation
+{
+    order: 3;
+    width: 33%;
+}
+.merdeplastique
+{
+    max-width: 66%;
+}
+.signature
+{
+    order: 3;
+}
+.bandeaudroit
+{
+    display: flex;
+    flex-direction: column;
+    max-height: 940px;
+}
+.logopp
+{
+    width: 2%;
+    height: auto;
+}
