@@ -34,8 +34,9 @@ input[type=submit]:hover {
 body{
     background-color: black;
 }
-.button
+.btn
 {   
+    background-color: #45a049;
     margin-top: 2%;
     width:170px;
     font-size: 0.7vw;
