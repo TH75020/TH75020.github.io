@@ -4,339 +4,292 @@
         <meta name="viewport" content="initial-scale=1.0">
         <meta charset="utf-8">
         <title>Portfolio Tellec HERLUC</title>
-        <!--Import Google Icon Font-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!--Import materialize.css-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <script
-			  src="https://code.jquery.com/jquery-3.3.1.min.js"
-			  crossorigin="anonymous"></script>
         <link rel="stylesheet" href="portfolio.css">
-        <!--Let browser know website is optimized for mobile-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="canonical" href="https://www.exemple.fr/" />
-        <link rel="alternate" href="https://m.exemple.fr/" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <meta name="robots" content="nofollow" />
-        <meta name="googlebot" content="noindex" />
-        <style type="text/css">
-	
-            * { margin: 0; padding: 0; }
-              body { font: 14px/1.4 Georgia, serif; }
-              #page-wrap { width: 600px; margin: 15px auto; position: relative; }
-              p { margin: 0 0 15px 0; }
-              p:first-child { background: #fffcde; padding: 10px; }
-              #sidebar ul { background:none; padding: 10px; }
-              li { margin: 0 0 0 20px; }
-              #main { width: 390px; float: left; }
-              #sidebar { width: 130px; position: fixed; left: 80%; top: -1px; margin: 0 0 0 110px; } 
-          
-          </style>
+         <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+   
+       <link href="https://unpkg.com/ionicons@4.5.0/dist/css/ionicons.min.css" rel="stylesheet">
     </head>
 
 <body>
-        
-        <div class="row">
-                <div id="sidebar">
-				        <ul>
-                          <li><a href="CV 1.pdf" download class="yellow-text accent-2">CV<i class="material-icons">touch_app</i></a></li>
-                          <li><a href="Portfolio1.html" class="yellow-text accent-2">PORTFOLIO</a></li>
-                          <li><a href="Portfolioform.html" class="yellow-text accent-2">CONTACT</a></li>
+    <div class="container">
+            <div class="menu"> 
+                <nav class ="card-panel #bdbdbd grey lighten-1">  
+                    <div class="nav-wrapper">
+                        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a> 
+                          <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <li><a href="CVwebcoding2018.pdf"><i class="material-icons"></i>CV</a></li>
+                            <li><a href="#ancre"><i class="material-icons"></i>Portfolio</a></li>
+                            <li><a href="#containt"><i class="material-icons"></i>Contact</a></li>                  
+                          </ul>
+                    </div>
+                </nav>
+                <ul class="sidenav" id="mobile-demo">
+                        <li><a href="CVwebcoding2018.pdf"><i class="material-icons"></i>CV</a></li>
+                        <li><a href="Portfolio1.html"><i class="material-icons"></i>Portfolio</a></li>
+                        <li><a href="Portfolioform.html"><i class="material-icons"></i>Contact</a></li>                
+                </ul>
+                <ul id='dropdown1' class='dropdown-content'>
+                        <li><a class="CV web coding 2018.pdf" href="#!"><i class="material-icons"></i>CV</a></li>
+                        <li><a class="#ancre" href="#!"><i class="material-icons"></i>Portfolio</a></li>
+                        <li class="divider" tabindex="-1"></li>
+                        <li><a class="#containt" href="#!"><i class="material-icons"></i>Contact</a></li>
                       </ul>
-                    
-                    </div>
-            
-                <div class="col s12 m12 l12">
-                  <!-- Teal page content  -->    
-                    <ul id="tabs-swipe-demo" class="tabs">
-                    <li class="tab col s12 m6 l4 #000000 black"><a  href="#test-swipe-1" class="yellow-text accent-2">ABOUT</a></li>                      
-                    <li id="skill" class="tab col s4 m6 l4 #000000 black"><a  href="#test-swipe-2" class="yellow-text accent-2">SKILLS</a></li>
-                    <li class="tab col s12 m6 l4 #000000 black"><a href="#test-swipe-3" class="yellow-text accent-2">EXPERIENCES</a></li>
-                    </ul>
-                    <div id="test-swipe-1" class="col s12 #cfd8dc blue-grey lighten-4">
-                            <div class="row">
-                                <div class="col s12 m8 l6">
-                                        <img class="avatar" src="IMG_1712-compressor.jpg" alt="Avatar" style="width:100px">
-                                        <table>    
-                                        <tbody>
-                                        <tr>
-                                        <td>Nom: </td>
-                                        <td>Tellec HERLUC</td>
-                                        </tr>
-                                        <tr>
-                                        <td>Email: </td>
-                                        <td>tellecherluc@yahoo.fr</td>
-                                        </tr>
-                                        <tr>
-                                        <td>Mobile: </td>
-                                        <td>06 XX XX XX XX</td>
-                                        </tr>
-                                        <tr>
-                                        <td>Adresse: </td>
-                                        <td>130 rue des gufruières 75019 Paris</td>
-                                        </tr>
-                                        <tr>
-                                        <td>Nationalite: </td>
-                                        <td>Française</td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
-                                     
-                                    <h4>Professionnal profile</h4>
-                                    <p>lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem </p>            
-                                </div>     
-                                <div class="col s12 m5 l3">
-                                <a href="CV 1.html"><img class="drapeau" src="es.png"  alt="drapeau espagnol"><i class="material-icons">touch_app</i></a>
-                                <p class="flow-text">2 years of sales development (see details)</p>
-                                <a href="CV 1.html"><img class="drapeau" src="Drapeau_anglais.jpg" alt="drapeau espagnol"><i class="material-icons">touch_app</i></a>
-                                <p class="flow-text">4 years of sales development (see details)</p>
-                                
-                                </div>
-                                    <div class="col s12 m3 l3">
-                                        <div class="container2">
-                                            <img class="col_forest" src="IMG_1708-compressor.jpg" alt="photo web & go">
-                                            <div class="bottom-left">Web Developpeur Front</div>
-                                        </div>    
-                                            <img class="logo" src="logocoding.jpeg" alt="logo coding academy" style="width:50px"><img class="logo" src="epitech-squarelogo.png" alt="logo Epitech" style="width:50px">
-                                        
+            </div>
+
+    <div class="row">
+        <div class="col  s12 m8 l4"></div>
+                <div class="col  s12 m8 l4">
+                        <div class ="photo">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                    <img class="photo1" src ="Layer1.png" alt="photo coding">
                                     </div>
-                                </div>
-                    </div>
-                <div id="test-swipe-2" class="col s12 grey">
-                    <div class="row">
-                            <h2>20 années de compétences commerciales...</h2>
-                            <div class="col s12 m5 l3">
-                                <div class="text">
-                                <div id="v">vente</div>
-                                <div id="pp">PRA / PCA</div>
-                                <div id="m">marketing Opé</div>
-                                <div id="cm">channel Management</div>
-                                <div id="c">chasse</div>
-                                <div id="b">B to B</div>
-                                <div id="s">service</div>
-                                <div id="a">animation</div>
-                                <div id="h">hardware</div>
-                                <div id="p">prospection</div>
-                                <div id="bc">B to C</div>
-                                <div id="ma">maintenance</div>
-                                <div id="d">développement</div>
-                                <div id="so">solution</div>
-                                <div id="se">serveur</div>
-                                <div id="st">storage</div>
-                                <div id="r">RGBD</div>
-                                </div>
+                                        <div class="flip-box-back">
+                                        <img class="photo2" src ="IMG_1743.png" alt="photo coding">
+                                        </div>
+                                </div>            
                             </div>
-                            <div class="col s12 m3 l1">
-                                <div class="anim">
-                                    <div class="sales bounceInDown">Sales</div>
-                                    <div class="services bounceInDown">Services</div>
-                                    <div class="animation bounceInDown">Animation</div>
-                                    <div class="marketing bounceInDown">Marketing</div>
-                                </div>
-                            </div>
-                            <div class="col s12 m6 l4">
-                                <div class="chart">
-                                        <div class="pie" data-start="0" data-value="30"></div>
-                                        <div class="pie highlight" data-start="30" data-value="30"></div>
-                                        <div class="pie" data-start="60" data-value="40"></div>
-                                        <div class="pie big" data-start="100" data-value="260"></div>
-                                </div>
-                            </div>
-                            <div class="col s12 m6 l4">
-                                <h2>ajouté à des compétences en web frontend</h2>
-                                <div class="web">
-                                    <div id="git"><img src="github-logo-visage_318-54054.jpg" alt="logo git" style="width:50px"></div>
-                                    <div id="test"><img src="testcafe.png" alt="logo testcafe" style="width:50px"></div>
-                                    <div id="html"><img src="html.png" alt="logo html" style="width:50px"></div>
-                                    <div id="css"><img src="CSS3_logo.png" alt="logo css" style="width:50px"></div>
-                                    <div id="materialize"><img src="materialize.png" alt="logo Materialize" style="width:50px"></div>
-                                    <div id="bem"><img src="bem-logo.png" alt="logo Bem" style="width:50px"></div>
-                                    <div id="ang"><img src="angular.png" alt="logo angular" style="width:50px"></div>
-                                    <div id="java"><img src="JavaScript-logo.png" alt="logo javascript" style="width:50px"></div>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-                <div id="test-swipe-3" class="col s12 m12 l12 #cfd8dc blue-grey lighten-5">
-                    <h3>EXPERIENCES</h3>
-                    <p class="trait de soulignement"></p>
-                    <h6>Nous n'avons pas qu'une expérience dans notre vie et donc pas qu'une seule façon d'en parler</h6>
-                    <div id="esperience" class="row">
-                        <div class="col s12">
-                            <ul class="tabs2"><!--pb sur carroussel perdu en tabs mais moins bien-->
-                                <li class="tab col s12 m8 l6 #eceff1 blue-grey lighten-5"><a href="#test1">Chronologique</a></li>
-                                <li class="tab col s12 m8 l6 #cfd8dc blue-grey lighten-4"><a class="active" href="#test2">thématique</a></li>
-                            </ul>
                         </div>
-                            <div id="test1" class="col s12">Chronologique
-                                <div class="divider"></div>
-                                    <div class="section">
-                                            <div class="row">
-                                                    <div class="col s12 m4 l2">
-                                                        <i class="large material-icons">card_travels</i>
-                                                    </div>
-                                                    <div class="col s12 m4 l2">
-                                                        <p class="vente">INGENIEUR COMMERCIAL</p>
-                                                        <p class="date"><h6>Novembre 2017 - Juillet 2018</h6>
-                                                    </div>
-                                                    <div class="col s12 m10 l8">
-                                                        <p class="lorem">lorem ipsum hidtoria debilum, punta storia tella no habla los resscursas debillas</p>
-                                                    </div>
-                                            </div>
-                                    </div>                
-                                            <div class="divider"></div>
-                                                <div class="section">
-                                                    <div class="row">
-                                                        <div class="col s12 m4 l2">
-                                                            <i class="large material-icons">group_add</i>
-                                                        </div>
-                                                        <div class="col s12 m2 l2">
-                                                        <p class="vente">Chargé de clientèle</p>
-                                                        <p class="date"><h6>Septembre 2014 - Novembre 2017</h6>
-                                                        </div>
-                                                        <div class="col s12 m10 l8">
-                                                        <p class="lorem">lorem ipsum hidtoria debilum, punta storia tella no habla los resscursas debillas</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                    <div class="divider"></div>
-                                                        <div class="section">
-                                                            <div class="row">
-                                                                <div class="col s12 m4 l2">
-                                                                <i class="large material-icons">language</i>
-                                                                </div>
-                                                                <div class="col s12 m4 l2">
-                                                                <p class="vente">Channel manager</p>
-                                                                <p class="date"><h6>Septembre 2011 - Novembre 2017</h6>
-                                                                </div>
-                                                                <div class="col s12 m10 l8">
-                                                                <p class="lorem">lorem ipsum hidtoria debilum, punta storia tella no habla los resscursas debillas</p>
-                                                                </div>
-                                                            </div>
-                                                        </div> 
-                                        </div>            
-                            </div>
-                                <div id="test2" class="col s12  #cfd8dc blue-grey lighten-4">thématique
-                                    <div class="divider"></div>
-                                        <div class="section">
-                                                <div class="row">
-                                                        <div class="col s12 m4 l2">VENTE
-                                                            <i class="large material-icons">rowing</i>
-                                                        </div>
-                                                        <div class="col s12 m4 l2">
-                                                            <p class="vente">VENTE</p>
-                                                            <p class="date"><h6>Novembre 2017 - Juillet 2018</h6>
-                                                        </div>
-                                                        <div class="col s12 m10 l8">
-                                                            <p class="lorem">lorem ipsum hidtoria debilum, punta storia tella no habla los resscursas debillas</p>
-                                                        </div>
-                                                </div>
-                                        </div>                
-                                        <div class="divider"></div>
-                                                <div class="section">
-                                                    <div class="row">
-                                                        <div class="col s12 m4 l2">MARKETING
-                                                            <i class="large material-icons">explore</i>
-                                                        </div>
-                                                            <div class="col s12 m4 l2">
-                                                                <p class="vente">Account Manager spécialist serveur</p>
-                                                                <p class="date"><h6>Septembre 2014 - Novembre 2017</h6>
-                                                            </div>
-                                                            <div class="col s12 m10 l8">
-                                                             <p class="lorem">lorem ipsum hidtoria debilum, punta storia tella no habla los resscursas debillas</p>
-                                                            </div>
-                                                    </div>
-                                                </div>
-                                            <div class="divider"></div>
-                                                <div class="section">
-                                                    <div class="row">
-                                                        <div class="col s12 m6 l2">ANIMATION
-                                                         <i class="large material-icons">accessibility</i>
-                                                        </div>
-                                                        <div class="col s12 m6 l2">
-                                                        <p class="vente">Channel manager</p>
-                                                        <p class="date"><h6>Septembre 2011 - Novembre 2014</h6>
-                                                        </div>
-                                                        <div class="col s12 m10 l8">
-                                                        <p class="lorem">lorem ipsum hidtoria debilum, punta storia tella no habla los resscursas debillas</p>
-                                                        </div>
-                                                    </div>
-                                                </div>                 
-                                            
-                                </div>
                 </div>
-
-
+        </div>
+        <div class="col  s12 m8 l4"></div>           
+    
+    <div class ="presentation">
+        <h1>Developpeur Front-end</h1>
+        <h6>Ingénieur Commercial</h6>
     </div>
+    <div class="row">
+       
+        <div class="col s12 m8 l4">
+            <div class  ="texte">
+            <aside>Je suis <em class="glow">Tellec HERLUC,</em> commercial, un métier que j'ai exercé en France comme à  l'étranger, en indépendant et en tant que salarié. J'ai beaucoup travaillé dans l'IT (hardware, soft, service) mais également dans l'assurance (prévoyance, IARD, finance).</aside>   
+            </div>
+        </div>
+        <div class="col  s12 m8 l4">
+            <div class  ="texte">
+            <aside>J'aime travailler sur de nouveaux projets, le travail en équipe et apprendre de nouvelles choses (je suis un peu MOOC addict). Tout cela j'ai pu le retrouver tout au long de ma formation à <em class="glow">la web academy by Epitech</em>.
+            </aside>
+            </div>
+        </div>
+        <div class="col s12 m8 l4">
+            <div class  ="texte">
+            <aside>J'arrive aujourd'hui au bout des 5 mois de travail de la formation. Je vais pouvoir assouvir <em class="glow">ma passion pour le numérique</em> et professionnaliser mon expérience dans le cadre d'un stage que j'espère réaliser chez vous.
+            </aside>
+            </div>
+        </div>
+    </div>  
+    <div class="stage">
+            <h6><em class="glow">Je serai disponible pour la réalisation de mon stage à partir du 4 Mars 2019 </em><a href="#containt" class="fa fa-envelope-o"></a> <a href="https://www.linkedin.com/in/tellec-herluc-183b857" class="fa fa-linkedin-square"></a></h6>
+            </div>
+        <div class="row">
+       
+            <div class="col  s12 m8 l4">
+                <div class="colonne"></div> 
+            </div>
+                <div class="col  s12 m8 l4">
+                <div class="colonne"></div> 
+                </div>
+                <div class="col  s12 m8 l4">
+                    <div class="colonne"></div> 
+                </div>
+        </div>
+        <div class ="centre_intérêts"><h5>Mes centres d'intérêt</h5></div>
+            <div class="row #bdbdbd grey lighten-1 test"> 
+                <div class="carousel largeur">
+                <a class="carousel-item" href="#three!"><img src="marketing-digital.jpg" alt =""><span> marketing digital</span></a>
+                <a class="carousel-item" href="#four!"><img src="BD-Fotolia.jpg" alt =""><span>Base de données</span></a>
+                <a class="carousel-item" href="#five!"><img src="logo_opquast.png" alt =""><span>Qualité web</span></a>
+                <a class="carousel-item" href="#one!"><img src="vente.png" alt=""><span>Techniques commerciales</span></a>
+                <a class="carousel-item" href="#two!"><img src="blochchain.jpg" alt =""><span>Blockchain</span></a>
+            </div>
+        </div>
+        <div class="pft">
+        <h3>Portfolio</h3>
+        </div>
+    
+        <div class="row">
+            <div class="col  s12 m8 l4">
+                <div id="ancre"></div>
+                <div class="containp">
+                    <div class="overlay">Materialize</div>
+                    <img class = "ptfolio" src ="licorne.png" alt ="">
+                </div>  
+                <div class="containp">
+                    <div class="overlay">Materialize</div>
+                    <img class = "ptfolio" src ="batmanmarket.png" alt ="">
+                </div>
+                <div class="containp">
+                    <div class="overlay">HTML5, CSS3</div>
+                    <img class = "ptfolio" src ="safy.png" alt ="">
+                </div>
+            </div>
+            <div class="col  s12 m8 l4">
+                    <div class="containp">
+                        <div class="overlay">HTML, Less</div>
+                        <img class = "ptfolio1" src ="helloworld.png" alt ="">    
+                    </div>
+                    <div class="containp">
+                        <div class="overlay">HTML, SASS</div>
+                        <img class = "ptfolio1" src ="sass.png" alt ="">
+                    </div>
+                <!--/div-->
+            </div>   
+            <div class="col  s12 m8 l4">
+                <div class="containp">
+                    <div class="overlay">HTML5 CSS3</div>
+                    <img class = "ptfolio2" src ="fusce.jpg" alt ="">
+                </div>
+            </div>
+        </div>
+        <div class="competence">
+        <h4>Compétences Web</h4>
+        </div>
+            <div class="row card-panel #bdbdbd grey lighten-1" style="padding-bottom:7%;">
+                <div class="compet">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                            <ion-icon class="logo" name="logo-angular"></ion-icon>
+                            </div>  
+                            <div class="flip-box-back">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                            <img class="logo" src="bem-logo.png" alt="">
+                            </div>
+                            <div class="flip-box-back">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                            <ion-icon name="logo-html5"></ion-icon>
+                            </div>
+                            <div class="flip-box-back">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                            <ion-icon name="logo-github"></ion-icon>
+                            </div>
+                            <div class="flip-box-back">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                            <ion-icon name="logo-css3"></ion-icon>
+                            </div>
+                            <div class="flip-box-back">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                            <img class="logo" src="materialize.png" alt="">
+                            </div>
+                            <div class="flip-box-back">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                            <ion-icon name="logo-javascript"></ion-icon>
+                            </div>
+                            <div class="flip-box-back">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                            <ion-icon name="logo-sass"></ion-icon>
+                            </div>
+                            <div class="flip-box-back">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                            <img class="logo" src="less_logo1.png" alt="">
+                            </div>
+                            <div class="flip-box-back">   
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        <div class="contact">
+            <h4>Contact</h4>
+        </div>
+        <div id="containt">
+            <form method="POST" action="https://formspree.io/tellec.herluc@coding-academy.fr">
+        
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="name" placeholder="Your last name..">
+        
+            <input type="email" name="_replyto" placeholder="Your email">
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+            </form>
+    
+        </div>
 
-    <footer>
+        <footer>
+        <script src="https://unpkg.com/ionicons@4.5.0/dist/ionicons.js"></script>
         <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-twitter"></a>
-        <a href="https://www.linkedin.com/in/tellec-herluc-183b857" class="fa fa-linkedin"></a><span>site monté par mes soins en Materialize ©2018</span> 
-    </footer>
-    <script>
-    var item = $('.anim');
+        <a href="https://www.linkedin.com/in/tellec-herluc-183b857" class="fa fa-linkedin-square"></a><span>site monté par mes soins en Materialize ©2018</span> 
+        
+        </footer> 
+      
+  </div>
+  <script>
+    
+    // Activation navbar
+ document.addEventListener('DOMContentLoaded', function() {
+var elems = document.querySelectorAll('.sidenav');
+var instances = M.Sidenav.init(elems);
+});
+</script>         
+<script>
+// Animation carroussel
+document.addEventListener('DOMContentLoaded', function() {
+var elems = document.querySelectorAll('.carousel');
+//var instance = M.Carousel.getInstance(elems);
+var instances = M.Carousel.init(elems);
 
-    $('#skill').click( 
-    function (){
-    item.addClass('is-visible');
-    },
-    );
-    </script>
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, options);
-    });
-
-    </script>
-    <script>
-  // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
-  // var collapsibleElem = document.querySelector('.collapsible');
-  // var collapsibleInstance = M.Collapsible.init(collapsibleElem, options);
-
-    var el = document.querySelector('.tabs');
-    var options = {
-   /* swipeable :true ,*/
-    onShow: resizeTab
-    };
-    var instance = M.Tabs.init(el, options);
-    var instance = M.Tabs.getInstance(el);
-    instance.select('tab_id');
-    instance.updateTabIndicator();
-
-    function resizeTab(){
-    $(".tabs-content").css('height',$('.carousel-item.active').height()+'px');
-    }
-
-    $(document).ready(function(){
-    var instance = M.Tabs.init(el, options);
-    $( window ).resize(function() { resizeTab(); });
-    });
-    </script>
-    <script>
-
-    function resizeTab(){
-    $(".tabs-content").css('height',$('.carousel-item.active').height()+'px');
-    }
-
-    var elinfo = document.querySelector('.tabs2');
-    var options = {
-    onShow: resizeTab
-    };
-    var instance = M.Tabs.init(elinfo, options);
-    var instance = M.Tabs.getInstance(elinfo);
-    instance.select('tab_id');
-    instance.updateTabIndicator();
-
-    $(document).ready(function(){
-    var instance = M.Tabs.init(elinfo, options);
-     $( window ).resize(function() { resizeTab(); });
-     });
-    </script>
-    </div>
-    </body>
+});
+</script>
+<script src="js/materialize.min.js"></script>      
+  </body>
 </html>
