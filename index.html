@@ -1,56 +1,45 @@
  <!DOCTYPE html>
   <html lang="fr">
     <head>
-        <meta name="viewport" content="initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta charset="utf-8">
         <title>Portfolio Tellec HERLUC</title>
         <link rel="stylesheet" href="portfolio.css">
-         <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen"/>
+        <!--Bootstrao CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-   
-       <link href="https://unpkg.com/ionicons@4.5.0/dist/css/ionicons.min.css" rel="stylesheet">
     </head>
 
 <body>
     <div class="container">
-            <div class="menu"> 
-                <nav class ="card-panel #bdbdbd grey lighten-1">  
-                    <div class="nav-wrapper">
-                        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a> 
-                          <ul id="nav-mobile" class="right hide-on-med-and-down">
-                            <li><a href="CV2webcoding2018.pdf"><i class="material-icons"></i>CV</a></li>
-                            <li><a href="#ancre"><i class="material-icons"></i>Portfolio</a></li>
-                            <li><a href="#containt"><i class="material-icons"></i>Contact</a></li>                  
-                          </ul>
-                    </div>
-                </nav>
-                <ul class="sidenav" id="mobile-demo">
-                        <li><a href="CV2webcoding2018.pdf"><i class="material-icons"></i>CV</a></li>
-                        <li><a href="Portfolio1.html"><i class="material-icons"></i>Portfolio</a></li>
-                        <li><a href="Portfolioform.html"><i class="material-icons"></i>Contact</a></li>                
-                </ul>
-                <ul id='dropdown1' class='dropdown-content'>
-                        <li><a class="CV2webcoding2018.pdf" href="#!"><i class="material-icons"></i>CV</a></li>
-                        <li><a class="#ancre" href="#!"><i class="material-icons"></i>Portfolio</a></li>
-                        <li class="divider" tabindex="-1"></li>
-                        <li><a class="#containt" href="#!"><i class="material-icons"></i>Contact</a></li>
-                      </ul>
-            </div>
-
-    <div class="row">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" href="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="CV WebDevFront-end 09 2019.pdf">CV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ancre">Portofolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#containt">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+    <div class="row" id="separator">
         <div class="col  s12 m8 l4"></div>
                 <div class="col  s12 m8 l4">
-                        <div class ="photo">
+                        <!--div-- class ="photo"-->
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
@@ -61,37 +50,37 @@
                                         </div>
                                 </div>            
                             </div>
-                        </div>
+                        <!--/div-->
                 </div>
         </div>
         <div class="col  s12 m8 l4"></div>           
     
     <div class ="presentation">
-        <h1>Developpeur Front-end</h1>
-        <h6>Ingénieur Commercial</h6>
+        <h1 class="spaceline">Developpeur Front-end</h1>
+        <h6 class="spaceline">Ingénieur Commercial</h6>
     </div>
     <div class="row">
        
         <div class="col s12 m8 l4">
             <div class  ="texte">
-            <aside>Je suis <em class="glow">Tellec HERLUC,</em> commercial, un métier que j'ai exercé en France comme à  l'étranger, en indépendant et en tant que salarié. J'ai beaucoup travaillé dans l'IT (hardware, soft, service) mais également dans l'assurance (prévoyance, IARD, finance).</aside>   
+            <aside>Je suis <em class="glow">Tellec HERLUC,</em>j'ai été commercial, un métier que j'ai exercé en France comme à  l'étranger, en indépendant et en tant que salarié. J'ai beaucoup travaillé dans l'IT (hardware, soft, service) mais également dans l'assurance (prévoyance, IARD, finance).</aside>
             </div>
         </div>
         <div class="col  s12 m8 l4">
             <div class  ="texte">
-            <aside>J'aime travailler sur de nouveaux projets, le travail en équipe et apprendre de nouvelles choses (je suis un peu MOOC addict). Tout cela j'ai pu le retrouver tout au long de ma formation à <em class="glow">la web academy by Epitech</em>.
+            <aside>J'ai ajouté une nouvelle corde à mes compétences, après une formation de 5 mois au sein de<em class="glow"> la web academy by Epitech</em>, je suis devenu développeur Front-end. Je viens de terminer mes 6 mois e stage en entreprise sur de la techno Angular 7
             </aside>
             </div>
         </div>
         <div class="col s12 m8 l4">
             <div class  ="texte">
-            <aside>J'arrive aujourd'hui au bout des 5 mois de travail de la formation. Je vais pouvoir assouvir <em class="glow">ma passion pour le numérique</em> et professionnaliser mon expérience dans le cadre d'un stage que j'espère réaliser chez vous.
+            <aside>Intégration, développement, débug, amélioration continu... J'ai pu travailler et développer mes compétences sur Angular dans le cadre de la migration de service qu'effectuait mon entreprise de stage.
             </aside>
             </div>
         </div>
     </div>  
     <div class="stage">
-            <h6><em class="glow">Je serai disponible pour la réalisation de mon stage à partir du 4 Mars 2019 </em><a href="#containt" class="fa fa-envelope-o"></a> <a href="https://www.linkedin.com/in/tellec-herluc-183b857" class="fa fa-linkedin-square"></a></h6>
+            <h6><em class="glow">Je suis désormais disponible pour tout poste de développment Front (HTML, CSS, React, Angular, Wordpress) </em><a href="#containt" class="fa fa-envelope-o"></a> <a href="https://www.linkedin.com/in/tellec-herluc-183b857" class="fa fa-linkedin-square"></a></h6>
             </div>
         <div class="row">
        
@@ -105,16 +94,51 @@
                     <div class="colonne"></div> 
                 </div>
         </div>
-        <div class ="centre_intérêts"><h5>Mes centres d'intérêt</h5></div>
-            <div class="row #bdbdbd grey lighten-1 test"> 
-                <div class="carousel largeur">
-                <a class="carousel-item" href="#three!"><img src="marketing-digital.jpg" alt =""><span> marketing digital</span></a>
-                <a class="carousel-item" href="#four!"><img src="BD-Fotolia.jpg" alt =""><span>Base de données</span></a>
-                <a class="carousel-item" href="#five!"><img src="logo_opquast.png" alt =""><span>Qualité web</span></a>
-                <a class="carousel-item" href="#one!"><img src="vente.png" alt=""><span>Techniques commerciales</span></a>
-                <a class="carousel-item" href="#two!"><img src="blochchain.jpg" alt =""><span>Blockchain</span></a>
+        <div class="bd-example">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner" >
+                    <div class="carousel-item active">
+                        <img src="marketing-digital.jpg" class="d-block w-100" alt="marketing digital">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Marketing Digital</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="BD-Fotolia.jpg" class="d-block w-100" alt="Base de Données">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Base de données</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="logo_opquast.png" class="d-block w-100" alt="Qualité Web">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Qualité Web</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="blochchain.jpg" class="d-block w-100" alt="Blockchain" justify-content="center">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Blockchain</h5>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </div>
+
         <div class="pft">
         <h3>Portfolio</h3>
         </div>
@@ -153,7 +177,7 @@
                 </div>
             </div>
         </div>
-        <div class="competence">
+        <!--div class="competence">
         <h4>Compétences Web</h4>
         </div>
             <div class="row card-panel #bdbdbd grey lighten-1" style="padding-bottom:7%;">
@@ -240,7 +264,7 @@
                         </div>
                     </div>
                 </div>
-            </div>  
+            </div-->
         <div class="contact">
             <h4>Contact</h4>
         </div>
@@ -273,23 +297,27 @@
         </footer> 
       
   </div>
-  <script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://unpkg.com/ionicons@4.5.0/dist/css/ionicons.min.css" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <!--script>
     
     // Activation navbar
  document.addEventListener('DOMContentLoaded', function() {
 var elems = document.querySelectorAll('.sidenav');
 var instances = M.Sidenav.init(elems);
 });
-</script>         
-<script>
+</script-->
+<!--script>
 // Animation carroussel
 document.addEventListener('DOMContentLoaded', function() {
 var elems = document.querySelectorAll('.carousel');
 //var instance = M.Carousel.getInstance(elems);
 var instances = M.Carousel.init(elems);
-
 });
-</script>
-<script src="js/materialize.min.js"></script>      
+</script-->
+<!--script src="js/materialize.min.js"></script-->
   </body>
 </html>

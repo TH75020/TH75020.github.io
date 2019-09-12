@@ -10,11 +10,9 @@ html {
     margin-top : -10%;
     font-size: 10%;
 }
-.photo {
-    display : flex;
-    flex-direction: column;
-    margin-left: 35%;
-    width: 100%;
+.navbar {
+    margin-top: 1%;
+    height:100%;
 }
 .competence {
 display: flex;
@@ -22,23 +20,23 @@ flex-direction: row;
 }
 img.photo1 {
  justify-content: center;
- width: 100%;
+ width: 70%;
 }
 img.photo2 {
-    width: 150%;
+    width: 100%;
     margin-bottom: 10%;
-    margin-top : -12%;
-    margin-left : -30%;
-    background-color: lightgray;
+    margin-left : 3%;
+    background-color: white;
    }
 .flip-box, .flip-box-inner, .flip-box-front, .flip-box.back  {
+    margin-top: 5%;
     height:10%;
-    border: none!important;
 } 
 .presentation {
     width: 100%;
     margin-top: 11%;
     text-align: center;
+    line-height: 240%;
 }
 span {
     margin-left: 8%;
@@ -101,9 +99,9 @@ color:black ;
     margin-bottom: -3%;
 }
 .flip-box {
-    background-color: black;
     width: 20%;
     border: 1px solid #f1f1f1;
+    border: none!important;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
   /* This container is needed to position the front and back side */
@@ -111,13 +109,13 @@ color:black ;
     position: relative;
     width: 100%;
     height: 100%;
-    text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
   }
   /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-box:hover .flip-box-inner {
     transform: rotateY(180deg);
+      border: none!important;
   }
   /* Position the front and back side */
   .flip-box-front, .flip-box-back {
@@ -125,20 +123,25 @@ color:black ;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
+      border: none!important;
   }
   
   /* Style the front side */
   .flip-box-front {
-    background-color: #bbb;
     color: black;
+      border: none!important;
   }
   
   /* Style the back side */
   .flip-box-back {
-    background-color: dodgerblue;
     color: white;
     transform: rotateY(180deg);
+      border: none!important;
   }
+  .spaceline {
+      line-height: 200%;
+  }
+
   ion-icon {
     margin-bottom: 10%;
     font-size: 130%;
@@ -234,10 +237,10 @@ body {
     margin-right : auto;
     }
     img.photo1 { width:51%;
+        margin-left: 19%;
     }
     img.photo2 {
-        margin-left: -22%;
-        width:79%;
+        width:81%;
 }
 .material-icons {margin-top : -70%
 }
