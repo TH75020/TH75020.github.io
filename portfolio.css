@@ -171,10 +171,22 @@ h4 {
 }
 #containt {
     margin-top: 15%;
+    border: 1px solid;
+    padding: 2%;
+    background-color: silver;
 }
 .contact {
     margin-top: 10%;
     margin-bottom: -10%;
+}
+input {
+    width: 25%;
+}
+textarea {
+    height:30px;
+}
+#button {
+    width: 100%;
 }
 footer {
     text-align: center;

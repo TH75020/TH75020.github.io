@@ -138,7 +138,7 @@
                 </a>
             </div>
         </div>
-
+        <br>
         <div class="pft">
         <h3>Portfolio</h3>
         </div>
@@ -269,20 +269,21 @@
             <h4>Contact</h4>
         </div>
         <div id="containt">
-            <form method="POST" action="https://formspree.io/tellec.herluc@coding-academy.fr">
-        
-            <label for="fname">Prénom</label>
+            <form id="contact" method="POST" action="https://formspree.io/tellec.herluc@coding-academy.fr">
+
+            <label for="fname">Nom</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        
-            <label for="lname">Nom</label>
+
+            <label for="lname">Prénom</label>
             <input type="text" id="lname" name="name" placeholder="Your last name..">
-        
+
+                <label>email</label>
             <input type="email" name="_replyto" placeholder="Your email">
-        
+            <br>
             <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
-        
-            <input type="submit" value="Submit">
+            <textarea id="subject" name="subject" placeholder="Write something.." style="width:85%"></textarea>
+                <br>
+            <input id="button" type="submit" value="Submit">
         
             </form>
     
@@ -290,9 +291,8 @@
 
         <footer>
         <script src="https://unpkg.com/ionicons@4.5.0/dist/ionicons.js"></script>
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="https://www.linkedin.com/in/tellec-herluc-183b857" class="fa fa-linkedin-square"></a><span>site monté par mes soins en Materialize ©2018</span> 
+            <br>
+                <a class="li-ic mr-3" role="button"><i class="fab fa-lg fa-linkedin-in"></i></a><span>site monté par mes soins en Bootstrap ©2018</span>
         
         </footer> 
       
@@ -302,22 +302,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <!--script>
-    
-    // Activation navbar
- document.addEventListener('DOMContentLoaded', function() {
-var elems = document.querySelectorAll('.sidenav');
-var instances = M.Sidenav.init(elems);
-});
-</script-->
-<!--script>
-// Animation carroussel
-document.addEventListener('DOMContentLoaded', function() {
-var elems = document.querySelectorAll('.carousel');
-//var instance = M.Carousel.getInstance(elems);
-var instances = M.Carousel.init(elems);
-});
-</script-->
-<!--script src="js/materialize.min.js"></script-->
+
   </body>
 </html>
