@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8">
+    <meta name="description" content="Licorne vs SCSS" />
+    <meta name="keywords" content="Licorne, rêve, rose, mode merveilleux...">
+    <title>Licorne</title>
+    <style>
+    @font-face {
+      font-family: Courier_Prime;
+      src: url(Courier_Prime.ttf);
+    }
+    body {font-family: Courier_Prime}
+    </style>
+  </head>
+
+  <body  class="lighten-3 container">
+
+    <nav>
+      <h1 class="hide">Titre 1 de fou</h1>
+      <div class="nav-wrapper">
+        <a id="navv" href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <img class="brand-logo center responsive-img" src="licorne.png" alt="licorne">
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li class="hoverable"><a id="clic1" href="#"><i class="material-icons left">star</i></a></li>
+          <li class="hoverable"><a id="clic2" href="#"><i class="material-icons left">store</i></a></li>
+          <li class="hoverable"><a id="clic3" href="#"><i class="material-icons left">mail</i></a></li>
+        </ul>
+      </div>
+    </nav>
+<!-- Mobile NavBar -->
+    
+<ul class="sidenav" id="mobile-demo">
+    <li><a   href="#"><i class="material-icons left">star</i></a></li>
+    <li><a href="#"><i class="material-icons left">store</i></a></li>
+    <li><a href="#"><i class="material-icons left">mail</i></a></li>
+    <li><a id="Clic" href="#">Menu mobile</a></li>
+  </ul>
+
+<!-- End of mobile NavBar  -->
+          
+
+    <div class="wrapper">
+      <img class="responsive-img" width="100%" src="licorne-header.jpeg" alt="licorne">
+    </div>
+
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+              <div class="carousel">
+                  <a class="carousel-item" ><img class="responsive-img card-image" src="licorne-peluche.jpg" alt="batman"></a>
+                  <a class="carousel-item" ><img class="responsive-img card-image" src="licorne-peluche2.jpg" alt="batman"></a>
+                  <a class="carousel-item" ><img class="responsive-img card-image" src="licorne-peluche3.jpg" alt="batman"></a>
+               </div>
+          </div>
+          <div class="card-content">
+            <h5 class="black-text">Peluche Licorne</h5>
+            <p class="black-text">Peluche de licorne très connue qui est apparue dans un dessin animé</p>
+            <p class="black-text">10000 €</p>
+          </div>
+          <div class="card-action">
+            <a href="#">COMMANDER</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img card-image" src="licorne-tasse.jpg" alt="batman">
+            </div>
+            <div class="card-content">
+              <h5 class="black-text">Tasse Licorne</h5>
+              <p class="black-text">Parce que coder c'est cool, mais coder avec du café c'est mieux, voici une super tasse</p>
+              <p class="black-text">7 €</p>
+            </div>
+            <div class="card-action">
+              <a href="#">COMMANDER</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img class="responsive-img card-image" src="licorne-cle-usb.jpg" alt="batman">
+              </div>
+              <div class="card-content">
+                <h5 class="black-text">clé USB</h5>
+                <p class="black-text">Le must de tout bon dev une clé USB, quand c'est une licorne c'est encore mieux !</p>
+                <p class="black-text">50 €</p>
+              </div>
+              <div class="card-action">
+                <a href="#">COMMANDER</a>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <ul class="pagination center">
+        <li class="waves-effect hoverable"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+        <li class="waves-effect hoverable"><a href="#!">1</a></li>
+        <li class="waves-effect hoverable"><a href="#!">2</a></li>
+        <li class="waves-effect active hoverable"><a href="#!">3</a></li>
+        <li class="waves-effect hoverable"><a href="#!">4</a></li>
+        <li class="waves-effect hoverable"><a href="#!">5</a></li>
+        <li class="waves-effect hoverable"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+    </ul>
+
+    <footer class="center materialize-red lighten-2 white-text" style="padding: 2%">Etre une licorne c'est comme un développeur, c'est dur d'être une créature fantastique <br> Licorne inconnue
+    </footer>
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="../js/materialize.min.js"></script>
+
+    <script>    
+  document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.sidenav');
+  var instances = M.Sidenav.init(elems);
+  });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems);
+  });
+    </script>
+    
+  </body>
+</html>
