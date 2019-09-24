@@ -1,0 +1,185 @@
+body {
+  margin: 0%;
+    font-family: Verdana;
+    font-size: small;
+}
+
+header {
+  position: relative;
+  display: flex;
+}
+header .backgroundimg {
+  width: 100%;
+}
+header .backgroundlogo {
+  width: 50%;
+  position: absolute;
+  top: 4%;
+  left: 23%;
+}
+header h1 {
+  display: none;
+}
+
+.container-moyens {
+  background-color: rgba(69, 134, 168, 0.3);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+@media screen and (max-width: 800px) {
+  .container-moyens {
+    grid-template-columns: 1fr 1fr;
+  }
+  .container-moyens div:nth-child(0n+3) {
+    width: 200%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container-moyens {
+    grid-template-columns: 1fr;
+  }
+  .container-moyens div:nth-child(0n+3) {
+    width: 100%;
+  }
+}
+.container-moyens .container-moyens-bloc {
+  margin: 7%;
+  text-align: center;
+}
+@media screen and (max-width: 500px) {
+  .container-moyens .container-moyens-bloc {
+    margin: 1%;
+  }
+}
+.container-moyens .container-moyens-bloc img {
+  width: 55%;
+}
+.container-moyens h2 {
+  text-transform: uppercase;
+  color: white;
+}
+.container-moyens P {
+  text-align: justify;
+  color: white;
+  margin: 13%;
+  font-size: 139%;
+}
+
+.container-grid {
+  background-color: rgba(30, 117, 151, 0.75);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+@media screen and (max-width: 800px) {
+  .container-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.container-grid div:nth-child(0n+1) {
+  background-color: rgba(236, 247, 251, 0.75);
+}
+.container-grid div:nth-child(0n+2) {
+  background-color: rgba(193, 229, 243, 0.75);
+}
+.container-grid div:nth-child(0n+3) {
+  background-color: rgba(151, 211, 234, 0.75);
+}
+.container-grid div:nth-child(0n+4) {
+  background-color: rgba(38, 150, 194, 0.75);
+}
+.container-grid h2 {
+  color: white;
+  font-size: 146%;
+  padding-left: 5%;
+  text-align: right;
+}
+.container-grid div {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.container-grid p {
+  color: white;
+  text-align: justify;
+  font-size: 131%;
+  padding: 5%;
+}
+.container-grid span {
+  font-size: 218%;
+}
+
+.container-background {
+  display: flex;
+  position: relative;
+}
+.container-background img {
+  width: 100%;
+  height: 1%;
+}
+.container-background img:nth-child(0n+2) {
+  position: absolute;
+  left: 3%;
+  top: 38%;
+  height: auto;
+  width: 7%;
+}
+.container-background img:nth-child(0n+3) {
+  position: absolute;
+  height: auto;
+  right: 3%;
+  top: 38%;
+  width: 7%;
+}
+
+.newsletter {
+  background-color: rgba(69, 134, 168, 0.3);
+  text-align: center;
+  overflow: hidden;
+}
+.newsletter p {
+  font-size: 243%;
+  color: white;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+.newsletter div {
+  padding-bottom: 3%;
+}
+.newsletter div input {
+  width: 35%;
+  height: 33px;
+  border: none;
+}
+.newsletter div button {
+  width: 7%;
+  height: 33px;
+  margin-left: 2%;
+  border-radius: 7%;
+  border: none;
+  background-color: #4586a8;
+  color: white;
+}
+.ldna {
+    line-height: 17px;
+    font-size: 1em;
+}
+@media screen and (max-width: 800px) {
+  .newsletter div button {
+    width: 15%;
+  }
+}
+
+footer {
+  background-color: rgba(30, 117, 151, 0.75);
+  text-align: center;
+  color: white;
+  margin: 0%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+/*# sourceMappingURL=output.css.map */
