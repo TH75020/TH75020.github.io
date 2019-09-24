@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Cette page est le premier travail SCSS" />
+        <meta name="keywords" content="Voyages, lune, animations">
+        <link rel ="stylesheet" type="text/css" href="output.css">
+        <title>Mon vrai site responsive</title>
+    </head>
+
+<!-- Début du corps de page -->
+    <body class="body">
+
+<!-- Construction du header -->
+        <header class="header"> 
+            <h1>The Moon and "au delà"</h1> 
+            <img class="imageheader" src="header.jpg" alt="header image">
+            <nav class="header-nav">
+                <ul class="header-nav-ul">
+                    <li><img class="header-nav__logo" src="rocket_header.png" alt="fusée"></li>
+                    <li><a><img class="header-nav__img" src="menu_logo.png" alt="logo"></a></li>
+                    <li><a><img class="header-nav__img" src="home_logo.png" alt="logo"></a></li>
+                </ul>
+            </nav>
+        </header>
+
+ <!-- Premier container -->
+
+        <div class="container-objectifs">
+            <div class="objectifs">
+                <div class="image"><img src="astronaut.png" alt="astronaut"></div>
+                <div class="description">
+                    <h2>Apprendre</h2>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum 
+                        deleniti atque corrupti.
+                    </p>
+                </div>
+            </div>
+            <div class="objectifs">
+                <div class="image"><img src="moon.png" alt="Moon"></div>
+                <div class="description">
+                    <h2>Explorer</h2>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum 
+                        deleniti atque corrupti.
+                    </p>
+                </div>
+            </div>
+            <div class="objectifs">
+                <div class="image"><img src="rocketship.png" alt="Rocketship"></div>
+                <div class="description">
+                    <h2>Anticiper</h2>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum 
+                        deleniti atque corrupti.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+<!-- Second container -->
+
+        <div class="container-tour">
+            <div><h3 class="container-tour-h">Ready to go<br> to the Moon</h3></div>
+            <div><button class="button">take the tour</button></div>
+            <div><img src="astronaut_barre.png" alt="astronaut"></div>
+        </div>
+
+<!-- Troisième container -->
+        <div class="container-explore">
+            <div class="explore-img"><img src="aliens.png" alt="aliens"></div>
+            <div class="explore-descripton">
+                <H3>Explore <span>&</span> Learn</H3>
+                <P>At vero eos et accusamus et<br> iusto odio dignissimos ducimus<br> qui blanditiis praesentium voluptatum 
+                        deleniti atque<br> corrupti quos dolores et quas molestias excepturi.</P>
+            </div>
+        </div>
+
+<!-- Quatrième container -->
+        <div class="container-contact">
+            <div class="contact-text">
+                <h3>Contactez nos <span>supers-héros</span></h3>
+                <div>
+                    <div>
+                        <img src="astronaut_01.png" alt="astronaut 'de fou'">
+                        <p> vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum 
+                            deleniti atque corrupti quos dolores et quas molestias excepturi.</p>
+                    </div>
+                </div>
+                <div><img src="astronaut_02.png" alt="super astonaut">
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum 
+                        deleniti atque corrupti quos dolores et quas molestias excepturi.</p></div>
+            </div>
+        </div>
+
+<!-- Construction de la contact form -->
+        <div class="form">
+                <div>
+                    <div class="formdivtop">
+                        <form action="#">
+                        <label for="fname">Nom Prénom</label><br>
+                        <input type="text" id="fname" name="firstname" placeholder=""><br>
+                        </form>
+                    </div>
+                    <div>
+                            <form action="#">
+                            <label for="Email">Email</label><br>
+                            <input type="text" id="Email" name="firstname" placeholder="">
+                            </form>
+                    </div>
+                    <div class="formdivbottom">
+                                <form action="#">
+                                <label for="Message">Message</label><br>
+                                <textarea id="Message" name="Message" placeholder="" style="height:100px"></textarea><br>
+                                </form>
+                    </div>
+                </div>
+                <button type="submit">Envoyer</button>
+        </div>
+
+<!-- Image de fond d'écran avant le footer puis constuction du footer -->
+
+        <div class="backgroundpic"><img src="cloud_footer.png" alt="nuages"></div>
+        <footer>© 2018. <span>"GototheMoon"</span> Built with love</footer>
+    </body>
+    </html>
