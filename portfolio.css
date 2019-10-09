@@ -269,3 +269,11 @@ body {
 .test:hover .cadreIframe {
     display: block;
 }
+.caption {
+    background-color: #b0bec5;
+
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+}
