@@ -37,8 +37,8 @@
       <a class="nav-link" href="#service">Services</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link disabled" href="#contact" >Formules et Tarifs</a>
-    </li>
+      <a onclick="showtarif()" class="nav-link"  href="#tarif" >Formules et Tarifs</a>
+      </li>
   </ul>
 </nav>
 <div class="container">
@@ -95,7 +95,7 @@
     <p class="lead">l'espace de travail est constitué d'un établi de menuisier, des outils à main rabots, scie japonaise, équerre, trusquin etc ..</p>
     <p class="lead">des machines électro-portatives, scie plongeante, défonceuse, scie sauteuse, ponceuse, etc</p>
     <p class="lead">
-      <a class="btn btn-primary btn-lg btn-md" href="themes.html" role="button">Me contacter</a>
+      <a class="btn btn-primary btn-lg btn-md" href="#contact" role="button">Me contacter</a>
     </p>
   </div>
 
@@ -106,7 +106,7 @@
       <div class="row">
         <div class="col-sm">
           <div class="card" style="width: 18rem;">
-            <img src="./img/photocours.jpg" class="card-img-top" alt="...">
+            <img src="./img/plateaumarquetterieR.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Cours PATABOIS</h5>
                 <p class="card-text">S'inscrire pour apprendre à travailler le bois...</p>
@@ -116,7 +116,7 @@
         </div>
         <div class="col-sm">
            <div class="card" style="width: 18rem;">
-              <img src="./img/photoresa.jpg" class="card-img-top" alt="...">
+              <img src="./img/atelierR.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Location / Réservation</h5>
                    <p class="card-text">réserver ses créneaux et ses machines pour travailler sur vos projets</p>
@@ -126,10 +126,10 @@
         </div>
         <div class="col-sm">
             <div class="card" style="width: 18rem;">
-               <img src="./img/photocours.jpg" class="card-img-top" alt="...">
+               <img src="./img/meublebureauR.jpg" class="card-img-top" alt="...">
                  <div class="card-body">
                    <h5 class="card-title">Devis</h5>
-                   <p class="card-text">Réalisation de travaux à façon</p>
+                   <p class="card-text">Réalisation de travaux à façon pour professionnels et particuliers</p>
                    <a href="#contact" class="btn btn-primary">Plus d'info</a>
                  </div>
              </div>
@@ -137,6 +137,36 @@
       </div>
     </div>
   </div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+    <div id="tarif">
+      <p>la tarification pour les cours ou la location est calculé selon la base horaire ci-dessous :</p>
+      <table>
+        <thead>
+        <tr>
+          <th colspan="2">Tarification</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>1 heure :</td>
+          <td>17,00 €</td>
+        </tr>
+        <tr>
+          <td>4 heures :</td>
+          <td>60,00 €<td>
+        </tr>
+        <tr>
+          <td>10 heures :</td>
+          <td>140,00 €</td>
+        </tr>
+        </tbody>
+      </table>
+     </div>
+    </div>
+  </div>
+</div>
   <!-- Fourth Parallax Section -->
   <div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86729.69135630713!2d-1.6378072197001163!3d47.210656155531225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480591369e617d23%3A0xc33b130ba9c2b14e!2s1%20Le%20Paradis%2C%2044220%20Cou%C3%ABron!5e0!3m2!1sfr!2sfr!4v1571389297943!5m2!1sfr!2sfr" width="1350" height="600" style="border:0;" allowfullscreen=""></iframe>
@@ -161,13 +191,13 @@
           <form id="contact" method="POST" action="https://formspree.io/pheacie@gmail.com">
 
             <label for="fname"></label>
-            <input type="text" id="fname" name="firstname" placeholder="Votre nom." style="width:90%">
+            <input type="text" id="fname" name="firstname" placeholder="Votre nom.." style="width:90%">
 
             <label for="lname"></label>
             <input type="text" id="lname" name="name" placeholder="Votre prénom.." style="width:90%">
 
             <label></label>
-            <input type="email" name="_replyto" placeholder="Votre email" style="width:90%">
+            <input type="email" name="_replyto" placeholder="Votre email.." style="width:90%">
             <br>
             <label for="subject"></label>
             <textarea id="subject" name="subject" placeholder="Message.." style="width:90%"></textarea>
