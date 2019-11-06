@@ -36,8 +36,8 @@
     <li class="nav-item">
       <a class="nav-link" href="#service">Services</a>
     </li>
-    <li class="nav-item">
-      <a onclick="showtarif()" class="nav-link"  href="#tarif" >Formules et Tarifs</a>
+    <li class="nav-item" onmouseover="deblock()">
+      <a onclick="showTarif()" class="nav-link"  href="#tarif" >Formules et Tarifs</a>
       </li>
   </ul>
 </nav>
@@ -78,9 +78,9 @@
 
   <!-- Second Parallax Section -->
   <div class="jumbotron paral paralsec1">
-    <h1 id="display-3">LÀ POUR RÉPONDRE À TOUS VOS BESOINS DE CRÉATIVITÉ</h1>
-    <p id="lead">venez me rencontrer et partager un plaisir, une passion et une transmission.<br>
-    l’atelier est mis à disposition au public qui désire réaliser des objets en bois.<br>
+    <h1 id="display-3">POUR RÉPONDRE À TOUS VOS BESOINS DE CRÉATIVITÉ</h1>
+    <p id="lead">Venez me rencontrer et partager un plaisir, une passion et une transmission.<br>
+    L’atelier est mis à disposition au public qui désire réaliser des objets en bois.<br>
 
       L’atelier « PatABois » est un lieu convivial où les gens viennent s’échapper de leur quotidien dans un univers artisanal constitué de passionnés et de néophytes afin de partager et échanger dans la bonne humeur des idées et des techniques autour d’un établi .</p>
     <!--p class="lead">
@@ -92,8 +92,8 @@
   <div class="jumbotron paral paralsec2">
     <h1 class="display-3">UN ATELIER OUVERT AU PUBLIC</h1>
     <p class="lead">Un espace pour réaliser son projet en bois</p>
-    <p class="lead">l'espace de travail est constitué d'un établi de menuisier, des outils à main rabots, scie japonaise, équerre, trusquin etc ..</p>
-    <p class="lead">des machines électro-portatives, scie plongeante, défonceuse, scie sauteuse, ponceuse, etc</p>
+    <p class="lead">l'espace de travail est constitué d'un établi de menuisier, des outils à main, rabots, scie japonaise, équerre, trusquin...</p>
+    <p class="lead">des machines électro-portatives, scie plongeante, défonceuse, scie sauteuse, ponceuse...</p>
     <p class="lead">
       <a class="btn btn-primary btn-lg btn-md" href="#contact" role="button">Me contacter</a>
     </p>
@@ -102,31 +102,33 @@
   <!-- Third Parallax Section Service -->
   <div class="jumbotron paral paralsec3" id="service">
     <div class="container">
+      <div class="service">
       <h1>SERVICES</h1>
+      </div>
       <div class="row">
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="./img/atelierR.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Location / Réservation</h5>
+              <p class="card-text">réserver ses créneaux et ses machines pour travailler sur vos projets</p>
+              <a href="#contact" class="btn btn-primary">Plus d'info</a>
+            </div>
+          </div>
+        </div>
         <div class="col-sm">
           <div class="card" style="width: 18rem;">
             <img src="./img/plateaumarquetterieR.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Cours PATABOIS</h5>
+                <h5 class="card-title">Stage PATABOIS</h5>
                 <p class="card-text">S'inscrire pour apprendre à travailler le bois...</p>
                 <a href="#contact" class="btn btn-primary">Plus d'info</a>
               </div>
           </div>
         </div>
         <div class="col-sm">
-           <div class="card" style="width: 18rem;">
-              <img src="./img/atelierR.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Location / Réservation</h5>
-                   <p class="card-text">réserver ses créneaux et ses machines pour travailler sur vos projets</p>
-                   <a href="#contact" class="btn btn-primary">Plus d'info</a>
-                </div>
-           </div>
-        </div>
-        <div class="col-sm">
             <div class="card" style="width: 18rem;">
-               <img src="./img/meublebureauR.jpg" class="card-img-top" alt="...">
+               <img src="./img/compostouvertR.jpg" class="card-img-top" alt="...">
                  <div class="card-body">
                    <h5 class="card-title">Devis</h5>
                    <p class="card-text">Réalisation de travaux à façon pour professionnels et particuliers</p>
@@ -141,7 +143,7 @@
   <div class="row">
     <div class="col-sm">
     <div id="tarif">
-      <p>la tarification pour les cours ou la location est calculé selon la base horaire ci-dessous :</p>
+      <p>la tarification de la location est calculé selon la base horaire indiquée ci-dessous, la tarification des stages sera définie ultérieurement.</p>
       <table>
         <thead>
         <tr>
@@ -150,15 +152,15 @@
         </thead>
         <tbody>
         <tr>
-          <td>1 heure :</td>
+          <td>1 heure </td>
           <td>17,00 €</td>
         </tr>
         <tr>
-          <td>4 heures :</td>
+          <td>4 heures </td>
           <td>60,00 €<td>
         </tr>
         <tr>
-          <td>10 heures :</td>
+          <td>10 heures </td>
           <td>140,00 €</td>
         </tr>
         </tbody>
@@ -178,31 +180,33 @@
       <div class="col-sm">
         <div class="contact-me">
           <h1>CONTACTEZ-MOI !</h1>
+          <h2>Atelier Patabois</h2>
           <p>01 rue du Paradis</p>
           <p>44220 Coueron</p>
           <br>
-          <p>pheacie@gmail.com</p>
+          <p>email :  contact@atelierpatabois.com</p>
           <br>
-          <p>06 81 81 54 88</p>
+          <p>tél : 06 81 81 54 88</p>
         </div>
       </div>
       <div class="col-sm">
         <div id="containt">
-          <form id="contact" method="POST" action="https://formspree.io/pheacie@gmail.com">
+          <form id="contact" method="POST" action="https://formspree.io/contact@atelierpatabois.com">
 
             <label for="fname"></label>
-            <input type="text" id="fname" name="firstname" placeholder="Votre nom.." style="width:90%">
+            <input type="text" id="fname" name="firstname" placeholder="Votre nom.." required style="width:90%">
+            <span id="missPrenom"></span>
 
             <label for="lname"></label>
-            <input type="text" id="lname" name="name" placeholder="Votre prénom.." style="width:90%">
+            <input type="text" id="lname" name="name" placeholder="Votre prénom.." required style="width:90%">
 
             <label></label>
-            <input type="email" name="_replyto" placeholder="Votre email.." style="width:90%">
+            <input type="email" name="_replyto" placeholder="Votre email.." required style="width:90%">
             <br>
             <label for="subject"></label>
             <textarea id="subject" name="subject" placeholder="Message.." style="width:90%"></textarea>
             <br>
-            <input id="button" class="buttonContact" type="submit" value="Submit">
+            <input id="buttonContact" class="button" type="submit" value="Submit">
 
           </form>
 

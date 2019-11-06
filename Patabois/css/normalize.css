@@ -32,6 +32,10 @@ main {
   display: block;
 }
 
+.col-sm{
+  display: flex;
+  justify-content: center;
+}
 /* Header Parallax Element Style*/
 .paral {
   min-height: 600px;
@@ -47,7 +51,9 @@ main {
   text-align: center;
   line-height: 60px;
 }
-
+.paral .service h1 {
+  color : #b3d4fc;
+}
 /* Heading for Parallax Section */
 .paral h1 {
   color: rgba(255, 255, 255, 0.8);
@@ -168,18 +174,21 @@ p.card-text {
 }
 
 table {
+  width:40%;
   display:inline-table;
   margin-bottom: 3%;
+  font-size: 1rem;
 }
 table,
 td {
   border: 1px solid #333;
+  padding: 1%;
 
 }
 
 thead,
 tfoot {
-  background-color: #333;
+  background-color: #5eaab2;
   color: #fff;
 }
 
