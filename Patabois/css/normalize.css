@@ -52,7 +52,7 @@ main {
   line-height: 60px;
 }
 .paral .service h1 {
-  color : #b3d4fc;
+  color : #5eaab2; /*#b3d4fc*/
 }
 /* Heading for Parallax Section */
 .paral h1 {
@@ -184,6 +184,12 @@ td {
   border: 1px solid #333;
   padding: 1%;
 
+}
+.jour {
+  text-decoration: underline;
+}
+#inscription {
+  margin-bottom: 2%;
 }
 
 thead,
