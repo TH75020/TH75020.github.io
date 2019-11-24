@@ -24,6 +24,7 @@ body {
   margin: 0;
 }
 
+
 /**
  * Render the `main` element consistently in IE.
  */
@@ -52,7 +53,7 @@ main {
   line-height: 60px;
 }
 .paral .service h1 {
-  color : #5eaab2;
+  color : #5eaab2; /*#b3d4fc*/
 }
 /* Heading for Parallax Section */
 .paral h1 {

@@ -1,11 +1,6 @@
-function deblock() {
-  var x = document.getElementById("tarif");
-    x.style.display = "block";
-}
-
 function showTarif() {
   var x = document.getElementById("tarif");
-  if (x.style.display === "none") {
+  if (x.style.display != "block") {
     x.style.display = "block";
   } else {
     x.style.display = "none"
