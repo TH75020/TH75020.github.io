@@ -198,11 +198,19 @@ textarea {
   /* Style adjustments for high resolution devices */
 }
 
+@media screen and (max-width: 375px) {
+  .paral h1 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+}
+
 @media screen and (max-width: 415px) {
   .logoHead {
     margin-top: 26%;
   }
 }
+
 
 /* ==========================================================================
    Print styles.

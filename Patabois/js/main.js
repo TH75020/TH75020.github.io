@@ -9,3 +9,11 @@ function showTarif() {
   lien.href = "#tarif";
 }
 
+class CompostBois extends HTMLElement {
+  constructor(){
+    super()
+    this.innerHTML="<h1>CompostBois</h1>"
+  }
+}
+customElements.define('Compost-bois', CompostBois);
+document.body.appendChild(new CompostBois());

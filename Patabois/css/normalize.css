@@ -26,6 +26,7 @@ body {
 
 
 /**
+
  * Render the `main` element consistently in IE.
  */
 
@@ -40,6 +41,7 @@ main {
 /* Header Parallax Element Style*/
 .paral {
   min-height: 600px;
+  /*min-height: 37.5em;*/
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% 50%;
@@ -48,9 +50,12 @@ main {
 /* Paragraph for Parallax Section */
 .paral p {
   font-size: 24px;
+  /*font-size: 1.5em;*/
   color: #f5f5f5;
   text-align: center;
   line-height: 60px;
+  /*line-height: 2.75em vs 3.75em*/
+
 }
 .paral .service h1 {
   color : #5eaab2; /*#b3d4fc*/
@@ -59,9 +64,12 @@ main {
 .paral h1 {
   color: rgba(255, 255, 255, 0.8);
   font-size: 60px;
+  /*font-size: 3.75em;*/
   text-align: center;
   padding-top: 60px;
+  /*padding-top: 3.75em;*/
   line-height: 100px;
+  /*line-height: 3.75em; vs 6.25em;*/
 }
 #display-3 {
   color: black;
@@ -172,6 +180,21 @@ p.card-text {
 #tarif {
   display: none;
   text-align: center;
+}
+
+.map-responsive {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;>
+height:0;
+}
+
+.map-responsive iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }
 
 table {
