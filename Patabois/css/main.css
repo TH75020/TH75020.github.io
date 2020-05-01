@@ -180,6 +180,8 @@ textarea {
 .clearfix:after {
   clear: both;
 }
+/* gestion de la fiche produit
+ */
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -199,21 +201,56 @@ textarea {
 }
 
 @media screen and (max-width: 320px) {
+  .paralsec {
+    background-image: url("../img/compostbackgroundmini.jpg") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .paralsec2 {
+    background-image: url("../img/ateliermini.jpg") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
   .paral h1 {
     font-size: 43px;
     line-height: 70px;
   }
+
   table {
     width: 60%;
   }
 }
 
+@media screen and (device-aspect-ratio: 375/667){
+  .paralsec {
+    background-position: center;
+    background-image: url("../img/compostbackgroundmini.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .paralsec2 {
+    background-position: center;
+    background-image: url("../img/ateliermini.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+}
 @media screen and (max-width: 415px) {
   .logoHead {
     margin-top: 26%;
   }
-}
 
+  .paralsec {
+    background-image: url("../img/compostbackgroundmini.jpg");
+  }
+  .paralsec2 {
+    background-image: url("../img/ateliermini.jpg");
+  }
+}
 
 /* ==========================================================================
    Print styles.
@@ -225,7 +262,7 @@ textarea {
   *,
   *:before,
   *:after {
-    background: tranent !important;
+    background: transparent !important;
     color: #000 !important;
     /* Black prints faster */
     -webkit-box-shadow: none !important;

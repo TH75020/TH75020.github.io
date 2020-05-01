@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="053864bc-0ab1-42dc-8661-c88c0ba0e4ab" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,207 +24,40 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="200" column="3" lean-forward="true" selection-start-line="200" selection-start-column="3" selection-end-line="200" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="224" column="25" lean-forward="true" selection-start-line="224" selection-start-column="25" selection-end-line="224" selection-end-column="25" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#div#1;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tarteaucitron.services.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48467">
-              <caret line="2851" column="57" selection-start-line="2851" selection-start-column="57" selection-end-line="2851" selection-end-column="57" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tarteaucitron.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9112">
-              <caret line="536" column="112" selection-start-line="536" selection-start-column="77" selection-end-line="536" selection-end-column="112" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/tarteaucitron.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9078">
-              <caret line="534" column="1" selection-start-line="534" selection-end-line="535" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rgpd.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2703">
-              <caret line="159" selection-start-line="159" selection-end-line="159" />
-              <folding>
-                <element signature="e#110#128#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/normalize.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>LOGO</find>
-      <find>table</find>
-      <find>tarteaucitronroo</find>
-      <find>tarteaucitronroot</find>
-      <find>tarteaucitron.ad</find>
-      <find>key</find>
-      <find>SERVICES</find>
-      <find>CSS</find>
-      <find>BUTTON</find>
-      <find>accept</find>
-      <find>init</find>
-      <find>google</find>
-      <find>tarteaucitronpriva</find>
-      <find>tarteaucitronprivacyUrl</find>
-      <find>polit</find>
-      <find>openPanel</find>
-      <find>tarteaucitronPrivacyUrl</find>
-      <find>ur</find>
-      <find>privacy</find>
-      <find>mention</find>
-      <find>tarteaucitron.parameters.privacyUrl</find>
-      <find>tarteaucitronCloseAlert</find>
-      <find>h1</find>
-      <find>h2</find>
-      <find>body</find>
-      <find>line</find>
-      <find>PX</find>
-      <find>px</find>
-      <find>p</find>
-      <find>@ME</find>
-    </findStrings>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/tarteaucitron/tarteaucitron.js" />
-        <option value="$PROJECT_DIR$/css/tarteaucitron.css" />
-        <option value="$PROJECT_DIR$/tarteaucitron.js" />
-        <option value="$PROJECT_DIR$/tarteaucitron.services.js" />
-        <option value="$PROJECT_DIR$/rgpd.html" />
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/normalize.css" />
-        <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Patabois" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patabois" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Patabois" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patabois" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1VwKA6ZGm2XEHdnHrjDnLhxU7YY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\IdeaProjects\Patabois\img\fiche_produit" />
       <recent name="C:\Users\admin\IdeaProjects\Patabois" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\admin\IdeaProjects\Patabois\css" />
+      <recent name="C:\Users\admin\IdeaProjects\Patabois" />
       <recent name="C:\Users\admin\IdeaProjects\Patabois\lang" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -276,177 +107,97 @@
       <workItem from="1576018333590" duration="1323000" />
       <workItem from="1576078077331" duration="810000" />
       <workItem from="1576101014917" duration="5439000" />
+      <workItem from="1576148507538" duration="961000" />
+      <workItem from="1576161274488" duration="599000" />
+      <workItem from="1576161918307" duration="92000" />
+      <workItem from="1576162231641" duration="1459000" />
+      <workItem from="1576231481717" duration="1162000" />
+      <workItem from="1576256959625" duration="20000" />
+      <workItem from="1576682387057" duration="596000" />
+      <workItem from="1576683723743" duration="989000" />
+      <workItem from="1577112568941" duration="596000" />
+      <workItem from="1577386705073" duration="3020000" />
+      <workItem from="1577717737458" duration="65000" />
+      <workItem from="1578158576189" duration="4170000" />
+      <workItem from="1578175096192" duration="1522000" />
+      <workItem from="1578239269575" duration="2124000" />
+      <workItem from="1578435975259" duration="550000" />
+      <workItem from="1578516610985" duration="5215000" />
+      <workItem from="1578603688091" duration="1385000" />
+      <workItem from="1578608424769" duration="930000" />
+      <workItem from="1578691906033" duration="2584000" />
+      <workItem from="1578750837893" duration="134000" />
+      <workItem from="1578751417989" duration="1299000" />
+      <workItem from="1578776838691" duration="1148000" />
+      <workItem from="1578855967779" duration="1335000" />
+      <workItem from="1578861252316" duration="11000" />
+      <workItem from="1579461708036" duration="3031000" />
+      <workItem from="1579466759457" duration="561000" />
+      <workItem from="1579552590543" duration="7083000" />
+      <workItem from="1579634713810" duration="3736000" />
+      <workItem from="1579729868748" duration="2490000" />
+      <workItem from="1579900366516" duration="1710000" />
+      <workItem from="1579903507986" duration="3646000" />
+      <workItem from="1579985857091" duration="2856000" />
+      <workItem from="1580051907422" duration="7160000" />
+      <workItem from="1580157225585" duration="5983000" />
+      <workItem from="1580244882493" duration="117000" />
+      <workItem from="1580678798553" duration="3969000" />
+      <workItem from="1580763006604" duration="6975000" />
+      <workItem from="1580849754064" duration="7142000" />
+      <workItem from="1580936914622" duration="302000" />
+      <workItem from="1580937266497" duration="5742000" />
+      <workItem from="1581109634013" duration="5390000" />
+      <workItem from="1581187711564" duration="8063000" />
+      <workItem from="1581260475406" duration="904000" />
+      <workItem from="1581372698680" duration="2207000" />
+      <workItem from="1581453655937" duration="5048000" />
+      <workItem from="1581460357931" duration="464000" />
+      <workItem from="1581460895695" duration="82000" />
+      <workItem from="1581461044093" duration="15000" />
+      <workItem from="1581541739950" duration="600000" />
+      <workItem from="1581879843799" duration="7050000" />
+      <workItem from="1581971988148" duration="4505000" />
+      <workItem from="1582062348841" duration="3096000" />
+      <workItem from="1582146969190" duration="4114000" />
+      <workItem from="1582321955598" duration="2987000" />
+      <workItem from="1582400444430" duration="915000" />
+      <workItem from="1582403843469" duration="4059000" />
+      <workItem from="1582471917591" duration="8181000" />
+      <workItem from="1582576177416" duration="8900000" />
+      <workItem from="1582663619500" duration="10073000" />
+      <workItem from="1582674194941" duration="57000" />
+      <workItem from="1582748800180" duration="658000" />
+      <workItem from="1582841623472" duration="2750000" />
+      <workItem from="1582925193212" duration="4915000" />
+      <workItem from="1583006134145" duration="6648000" />
+      <workItem from="1583095194951" duration="1368000" />
+      <workItem from="1583354563653" duration="5259000" />
+      <workItem from="1583528563482" duration="2818000" />
+      <workItem from="1583618127476" duration="2028000" />
+      <workItem from="1583693888275" duration="1879000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119516000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2397882" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32843137" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32843137" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
-      <window_info anchor="right" id="Maven" order="8" weight="0.32980332" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2397882" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32843137" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32843137" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
-      <window_info anchor="right" id="Maven" order="8" weight="0.32980332" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/thumbnail.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/atelier.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/plugins.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/tarteaucitron.bg.js" />
-    <entry file="file://$PROJECT_DIR$/tarteaucitron/tarteaucitron.js" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lang/tarteaucitron.bg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tarteaucitron.services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48467">
-          <caret line="2851" column="57" selection-start-line="2851" selection-start-column="57" selection-end-line="2851" selection-end-column="57" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tarteaucitron.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9112">
-          <caret line="536" column="112" selection-start-line="536" selection-start-column="77" selection-end-line="536" selection-end-column="112" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/tarteaucitron.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9078">
-          <caret line="534" column="1" selection-start-line="534" selection-end-line="535" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rgpd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2703">
-          <caret line="159" selection-start-line="159" selection-end-line="159" />
-          <folding>
-            <element signature="e#110#128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="200" column="3" lean-forward="true" selection-start-line="200" selection-start-column="3" selection-end-line="200" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/normalize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="224" column="25" lean-forward="true" selection-start-line="224" selection-start-column="25" selection-end-line="224" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#div#1;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="363" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579903179420">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1579903179420" />
+    <state x="380" y="96" width="606" height="536" key="find.popup" timestamp="1579639662371">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="380" y="96" width="606" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1579639662371" />
+    <state x="65" y="87" key="new project wizard" timestamp="1581273196141">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="87" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1581273196141" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1583532232713">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583532232713" />
   </component>
 </project>

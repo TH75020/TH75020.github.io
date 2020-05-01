@@ -2,6 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1641144-b75e-49cd-94bc-da7397b63ea7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS3_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV WebDevFront-end 09 2019.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV2webcoding2018.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CVwebcoding2018.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marvel/3rdpartylicenses.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marvel/es2015-polyfills.8324bb31dd8aa5f2460c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marvel/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marvel/main.d8a82f240950b6ab70c0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marvel/polyfills.8bbb231b43165d65d357.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marvel/runtime.26209474bfa8dc87a77c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marvel/styles.d29cd31e70869b6aa93f.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MenuSound/menusound" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSound/menusound" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MenuSound/menusound/public/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MenuSound/menusound/public/index.html" beforeDir="false" />
@@ -13,9 +26,20 @@
       <change beforePath="$PROJECT_DIR$/MenuSound/menusound/src/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MenuSound/menusound/src/logo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MenuSound/menusound/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/batmanmarket1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bem-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github-logo-visage_318-54054.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/less_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/less_logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/materialize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/materialize_pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcafe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vente.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vente1.png" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,93 +60,54 @@
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="166" column="30" lean-forward="true" selection-start-line="166" selection-start-column="30" selection-end-line="166" selection-end-column="30" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#2;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#2;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>PTF</find>
       <find>thu</find>
+      <find>head</find>
+      <find>body</find>
+      <find>portfol</find>
+      <find>thumbmail</find>
+      <find>@</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/docs Epitech/batman &amp; licorne/Materialize test/Batman.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectId" id="1W89EeWp8lvoNyf7YjmlchddSOx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TH75020.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TH75020.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TH75020.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TH75020.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="Materialize test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -144,104 +129,111 @@
       <workItem from="1568931024089" duration="1976000" />
       <workItem from="1568980483345" duration="4375000" />
       <workItem from="1569192059474" duration="858000" />
+      <workItem from="1569450493993" duration="560000" />
+      <workItem from="1569750723268" duration="2551000" />
+      <workItem from="1569966159014" duration="2154000" />
+      <workItem from="1570007087816" duration="7547000" />
+      <workItem from="1570024375826" duration="2696000" />
+      <workItem from="1570027422936" duration="889000" />
+      <workItem from="1570570134188" duration="3982000" />
+      <workItem from="1570609240882" duration="1186000" />
+      <workItem from="1571152802792" duration="1611000" />
+      <workItem from="1571169141661" duration="1259000" />
+      <workItem from="1571229616457" duration="754000" />
+      <workItem from="1571254064223" duration="522000" />
+      <workItem from="1571254919573" duration="3219000" />
+      <workItem from="1571260158300" duration="12000" />
+      <workItem from="1571401556033" duration="2904000" />
+      <workItem from="1571520735888" duration="2072000" />
+      <workItem from="1571567790110" duration="11684000" />
+      <workItem from="1571665554420" duration="593000" />
+      <workItem from="1571760338980" duration="825000" />
+      <workItem from="1574019970912" duration="1626000" />
+      <workItem from="1574030861553" duration="1386000" />
+      <workItem from="1574111449582" duration="441000" />
+      <workItem from="1574120152021" duration="855000" />
+      <workItem from="1576160543370" duration="345000" />
+      <workItem from="1576161284677" duration="589000" />
+      <workItem from="1576161919920" duration="92000" />
+      <workItem from="1576162504793" duration="28000" />
+      <workItem from="1578520248373" duration="727000" />
+      <workItem from="1578522979287" duration="326000" />
+      <workItem from="1578603676919" duration="18000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13708000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23903178" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.057189543" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.14869282" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.32980332" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.057189543" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/portfolio.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3485">
-          <caret line="205" column="7" selection-start-line="205" selection-start-column="5" selection-end-line="205" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs Epitech/batman &amp; licorne/Materialize test/css/materialize.scss" />
-    <entry file="file://$PROJECT_DIR$/docs Epitech/batman &amp; licorne/Materialize test/materialize-src/sass/materialize.scss" />
-    <entry file="file://$PROJECT_DIR$/docs Epitech/batman &amp; licorne/Materialize test/Batman.html" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="166" column="30" lean-forward="true" selection-start-line="166" selection-start-column="30" selection-end-line="166" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#2;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#2;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

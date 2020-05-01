@@ -1,3 +1,4 @@
+//bouton pour faire apparaître et disparaître les tarifs
 function showTarif() {
   var x = document.getElementById("tarif");
   if (x.style.display != "block") {
@@ -8,7 +9,7 @@ function showTarif() {
   var lien = document.createElement("a");
   lien.href = "#tarif";
 }
-
+// création de la Balise Compost-bois
 class CompostBois extends HTMLElement {
   constructor(){
     super()

@@ -24,7 +24,12 @@ body {
   margin: 0;
 }
 
-
+body-at {
+  background-image: url('img/paysagejap.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 /**
 
  * Render the `main` element consistently in IE.
@@ -83,15 +88,45 @@ main {
 /* Image for Parallax Section */
 .paralsec {
   background-image: url("../img/compostbackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .paralsec1 {
-  background-image: url("");
-  color: black;
+  /*background-image: url("");
+  color: black;*/
 }
 
 .paralsec2 {
   background-image: url("../img/atelier.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* menu déroulant */
+#menu-deroulant, #menu-deroulant ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#menu-deroulant li {
+  display: inline-block;
+}
+#menu-deroulant ul li {
+  display: inherit;
+}
+#menu-deroulant a {
+  text-decoration: none;
+  display: block;
+}
+#menu-deroulant ul  {
+  position: absolute;
+  left: -999em;
+  text-align: left;
+  z-index: 1000;
+}
+#menu-deroulant li:hover ul {
+  left: auto;
 }
 
 /* Remove Bottom Margin from Jumbotron */
@@ -185,7 +220,7 @@ p.card-text {
 .map-responsive {
   overflow:hidden;
   padding-bottom:56.25%;
-  position:relative;>
+  position:relative;
 height:0;
 }
 
@@ -221,6 +256,83 @@ tfoot {
   background-color: #5eaab2;
   color: #fff;
 }
+/* gestion de la fiche produit*/
+#staryellow {
+  color: yellow;
+}
+.rowtext {
+  display: flex;
+  flex-direction: row;
+}
+.colt {
+  margin-bottom: 5%;
+  height: 176px;
+}
+.colt2 {
+  margin-top: 3%;
+}
+/* test-html */
+@media screen and (max-width: 760px) {
+  container {
+    margin-top: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 5px;
+    grid-template-areas: "main main" "main main" "maintext form";
+  }
+}
+/*  .main {
+    display: grid;
+    grid-area: main;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 2fr;
+    grid-gap: 15px;
+  }
+
+  .maintext {
+    grid-area: maintext;
+
+    grid-template-rows3fr;
+    grid-gap: 5px;
+  }
+
+  .form {
+    grid-area: form;
+  }
+
+  .box {
+    padding: 15px;
+  }
+*/
+
+ container {
+    padding-top: 15px;
+    /*display: grid;*/
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "main main maintext"
+                         "main main form";
+  }
+  .main {
+    margin-top: 17px;
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 5px;
+  }
+  .maintext {
+    grid-column: 3;
+    grid-row: 1;
+    grid-area: maintext;
+  }
+  .form {
+    grid-area: form;
+  }
+.box {
+  padding: 15px;
+}
+/* h3 ::after */
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -538,4 +650,11 @@ template {
 
 [hidden] {
   display: none;
+}
+/* font awesome */
+.fa-star:before {
+  content: "\f005";
+}
+.stars {
+  display: inline-block;
 }
