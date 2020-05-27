@@ -128,6 +128,9 @@ main {
 #menu-deroulant li:hover ul {
   left: auto;
 }
+.fp {
+  padding: 9px;
+}
 
 /* Remove Bottom Margin from Jumbotron */
 .jumbotron{margin-bottom: 0;}
