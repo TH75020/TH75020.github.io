@@ -2,8 +2,8 @@
 
     const getChartUsers = async function (){
         try { 
-         
-    let response = await fetch('http://api.marketstack.com/v1/eod?access_key=0870e752553e00b69d42a6a1e5f4a207&symbols=AAPL')
+    const $Url = 'http://api.marketstack.com/v1/eod?access_key=0870e752553e00b69d42a6a1e5f4a207&symbols=AAPL'     
+    let response = await fetch($Url)
           if(response !== 200 || response !== 201) {  
          let data3 = await response.json()
          
